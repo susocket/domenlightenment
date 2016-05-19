@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>DOM</title>
+        <meta charset="utf-8">
+    </head>
+    
+    <body>
+        <p>你好</p>
+        <script>
+            var elementNode = document.createElement('strong');
+            var textNode = document.createTextNode('年轻人');
+            
+            document.querySelector('p').appendChild(elementNode);
+            document.querySelector('strong').appendChild(textNode);
+            
+            console.log(document.body.innerHTML);
+        </script>
+    </body>
+</html>

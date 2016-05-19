@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>DOM</title>
+    </head>
+    
+    <body>
+        <a href="#"> Hi </a>
+        <script>
+            console.log(document.doctype.nodeValue);
+            console.log(document.nodeValue);
+            console.log(document.createDocumentFragment().nodeValue);
+            console.log(document.querySelector('a').nodeValue);
+            
+            console.log(document.querySelector('a').firstChild.nodeValue);
+        </script>
+    </body>
+</html>

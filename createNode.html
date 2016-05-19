@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>DOM</title>
+    </head>
+    
+    <body>
+        <a href="#"> Hi </a>
+        <script>
+            var elementNode = document.createElement('div');
+            console.log(elementNode, elementNode.nodeType);
+            
+            var textNode = document.createTextNode('Hi');
+            console.log(textNode, textNode.nodeType);
+        </script>
+    </body>
+</html>
